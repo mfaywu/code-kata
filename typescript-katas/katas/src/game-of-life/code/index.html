@@ -1,0 +1,43 @@
+<html>
+  <head>
+  </head>
+  
+  <body>
+    <style>
+      #title, #board{
+        width: 520px;
+        margin: 0 auto;
+        float: none;
+      }
+      
+      #title{
+        margin: 30px auto;
+        text-align: center;
+      }
+      
+      #board div{
+        width: 50px;
+        height: 50px;
+        border: 1px solid white;
+        background-color: black;
+        float: left;
+        border-collapse: collapse;
+        margin: 0;
+        padding: 0;
+      }
+      
+      #board div.alive{
+        background-color: yellow;
+      }
+    </style>
+    
+    <h1 id="title">John Conway's Game of Life</h1>
+    
+    <div id="board"></div>
+    
+    <script type="text/javascript" src="../../../built/game-of-life/code/cell.js"></script>
+    <script type="text/javascript" src="../../../built/game-of-life/code/environment.js"></script>
+    <script type="text/javascript" src="../../../built/game-of-life/code/main.js"></script>
+    <script type="text/javascript" src="../../../built/game-of-life/code/index.js"></script>
+  </body>
+</html>
